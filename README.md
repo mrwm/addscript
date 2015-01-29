@@ -7,6 +7,6 @@ Works in *nix systems
 
 ---
 
-To run:
-`chmod +x count.sh`
+To run: <br>
+`chmod +x count.sh` <br>
 `./count.sh` or `. count.sh` or `bash count.sh` :)
