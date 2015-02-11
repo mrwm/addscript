@@ -15,13 +15,14 @@ read -p "Do you want it hidden? [y/n]:" Hide
  
 # Variables without prompt:
 TargetDir=$HOME/Desktop/ #Dir. whrere we want the file to be in.
-Command=$(( $( cat $Name | tail -n 1) + 1 ))
+Command=$(( $( cat $Name | tail -n 2 | head -n 1) + 1 ))
  # ^^ Read the last line of the file. Then add one to the number.
 
 # Check if user wants the file hidden. Default=Y
 if [ $Hide = 'n' ] || [ $Hide = 'N' ]; then
-  echo Ok.
+  echo "Ok."
 else
+  echo "Hidden!"
   Name=.$Name
 fi
 
