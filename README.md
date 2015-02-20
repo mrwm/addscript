@@ -1,5 +1,5 @@
 ## addscript
-Writes a number larger than the number created before it. Works on *nix systems with a bash shell.
+Continuously writes a number larger than the number created before it. Works on *nix systems with a bash shell.
 
 ---
 
