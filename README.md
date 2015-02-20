@@ -1,12 +1,15 @@
-# addscript
-Writes a number larger than the number created before it.
+## addscript
+Writes a number larger than the number created before it. Works on *nix systems with a bash shell.
 
 ---
 
-Works in *nix systems
-
----
-
-To run: <br>
+##To run: <br>
+<br>
+Open up the terminal and type:<br>
 `chmod +x count.sh` <br>
-`./count.sh` or `. count.sh` or `bash count.sh` :)
+then <br>
+`./count.sh`<br>
+to run the script.<br>
+
+---
+
