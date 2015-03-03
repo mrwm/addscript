@@ -7,10 +7,12 @@
 ### START ###
 
 # Variables:
-  ### `read -p "..." $VAR` asks the user for an input.
-read -p "Enter desired number of delay from 0.1 to 1 second(s): " Delay
-read -p "Enter the desired name of output file: " Name
-read -p "Do you want it hidden? [Y/n]: " Hide
+echo "Enter desired number of delay from 0.1 to 1 second(s): "
+read Delay
+echo "Enter the desired name of output file: "
+read Name
+echo "Do you want it hidden? [Y/n]: "
+read Hide
 
 # Check if user wants the file hidden. Default=Y
 if [ $Hide = 'n' ] || [ $Hide = 'N' ]; then
